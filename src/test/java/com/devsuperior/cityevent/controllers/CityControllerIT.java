@@ -1,4 +1,4 @@
-package com.devsuperior.bds02.controllers;
+package com.devsuperior.cityevent.controllers;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -16,7 +16,7 @@ import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.bds02.dto.CityDTO;
+import com.devsuperior.cityevent.dto.CityDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @SpringBootTest

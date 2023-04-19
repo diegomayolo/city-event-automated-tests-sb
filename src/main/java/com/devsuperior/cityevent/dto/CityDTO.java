@@ -1,8 +1,8 @@
-package com.devsuperior.bds02.dto;
+package com.devsuperior.cityevent.dto;
 
 import java.io.Serializable;
 
-import com.devsuperior.bds02.entities.City;
+import com.devsuperior.cityevent.entities.City;
 
 public class CityDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
